@@ -19,16 +19,16 @@ description = "MLOps Development Kit"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "google-auth>=2.40.3",
-    "google-cloud-aiplatform>=1.101.0",
-    "ipython==8.12.3",
-    "kfp>=2.13.0",
-    "pandas>=2.3.1",
-    "pandas-gbq>=0.29.2",
-    "python-dotenv>=1.1.1",
-    "pydantic>=2.0.1",
-    "bigframes>=2.21.0",
-    "db-dtypes>=1.4.3",
+    "google-auth>=2.49.2",
+    "google-cloud-aiplatform>=1.147.0",
+    "ipython==9.10.1",
+    "kfp>=2.16.0",
+    "pandas>=3.0.2",
+    "pandas-gbq>=0.35.0",
+    "python-dotenv>=1.2.2",
+    "pydantic>=2.13.0",
+    "bigframes>=2.39.0",
+    "db-dtypes>=1.5.1",
     "pyOpenSSL"
 ]
 
@@ -43,14 +43,14 @@ build-backend = "setuptools.build_meta"
 
 [dependency-groups]
 dev = [
-    "build>=1.2.2.post1",
-    "mypy>=1.16.1",
-    "pre-commit>=4.2.0",
-    "pytest>=8.4.1",
-    "setuptools>=80.8.0",
+    "build>=1.4.3",
+    "mypy>=1.20.1",
+    "pre-commit>=4.5.1",
+    "pytest>=9.0.3",
+    "setuptools>=82.0.1",
     "twine>=6.2.0",
-    "scikit-learn>=1.7.2",
-    "xgboost<=3.0.2",
+    "scikit-learn>=1.8.0",
+    "xgboost<=3.2.0",
     "copier",
     "docker"
 ]
