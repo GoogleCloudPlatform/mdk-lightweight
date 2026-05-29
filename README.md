@@ -202,7 +202,7 @@ Any external variables that are necessary for your workloads (e.g. hyperparamete
 
 [Jitendra Jaladi](mailto:jjaladi@google.com)
 
-[Jimit Rangras](mailto:jimitrangras@google.com)
+
 
 ---
 
